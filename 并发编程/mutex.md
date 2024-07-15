@@ -1,0 +1,5 @@
+# 1.std::mutex
+1.互斥量不提供移动构造（重要）但是管理mutex的unique_lock和lock_guard提供移动构造来转移mutex的管理权
+
+2.提供加解锁方法，一般不适用手动加解锁方法
+使用管理类unique_lock和lock_guard来自动加解锁
