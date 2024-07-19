@@ -1,3 +1,4 @@
+<!-- TOC -->autoauto- [1.setCentralWidget](#1setcentralwidget)auto- [2.项目中出现的bug](#2项目中出现的bug)autoauto<!-- /TOC -->
 # 1.setCentralWidget
 setcentralwidget用于给QMainWindow类设置中心部件，设置完毕会自动显示该中心部件。但是其中有需要我们注意的点
 ```cpp
